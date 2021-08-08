@@ -11,3 +11,14 @@
     - 사용자가 REST API 를 호출하면, API Gateway 는 요청을 Lambda 함수로 라우팅
     - Lambda 함수는 DynamoDB 와 상호 작용하고, API Gateway 에 대한 응답을 반환
     - API Gateway 는 Lambda 로부터 받은 응답을 사용자에게 반환
+- POST 방식
+
+    ```scala
+    curl \
+    -X POST "API주소" \
+    -H "Content-Type: application/json" \
+    -d '{
+    "method" : "right dense",
+    "count": 1
+    }'
+    ```    
