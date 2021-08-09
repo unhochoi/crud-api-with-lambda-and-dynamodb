@@ -7,6 +7,8 @@
     2. AWS Lambda 콘솔을 사용하여 [Lambda](https://docs.aws.amazon.com/lambda/latest/dg/welcome.html) 함수 생성
     3. API Gateway 콘솔을 사용하여 REST API 생성
     4. API 테스트
+- 자세한 구현 방법
+    - https://wooono.tistory.com/332
 - 실행 순서
     - 사용자가 REST API 를 호출하면, API Gateway 는 요청을 Lambda 함수로 라우팅
     - Lambda 함수는 DynamoDB 와 상호 작용하고, API Gateway 에 대한 응답을 반환
